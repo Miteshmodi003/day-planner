@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/bf52ac46e9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Day Planner</title>
+</head>
+
+<body>
+  <header>
+    <div class="container text-center">
+        <!-- <div class="jumbotron"> -->
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-8">
+                  <h1>Daily Planner</h1>
+                  <p class="font-weight-bold">Add To-Do Items to Your Planner!</p>
+                  <i class="fas fa-calendar-day"></i> <p id="currentDate" class="d-inline-block font-weight-bold"></p>
+                </div>
+              </div>
+        <!-- </div> -->
+  </header>
+<hr>
+  <div class="row justify-content-center mt-2 mb-2">
+    <div class="col-md-10" id="rows">
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">09:00 AM</span>
+        </div>
+          <textarea id="notes-info-9am" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" data-id="9am"  type="button"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">10:00 AM</span>
+        </div>
+        <textarea id="notes-info-10am" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button"  data-id="10am" ><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">11:00 AM</span>
+        </div>
+          <textarea id="notes-info-11am" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button" data-id="11am"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">12:00 PM</span>
+        </div>
+        <textarea id="notes-info-12pm" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button" data-id="12pm"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">01:00 PM</span>
+        </div>
+          <textarea id="notes-info-1pm" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button" data-id="1pm"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">02:00 PM</span>
+        </div>
+          <textarea id="notes-info-2pm" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button" data-id="2pm"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">03:00 PM</span>
+        </div>
+          <textarea id="notes-info-3pm" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button" data-id="3pm"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">04:00 PM</span>
+        </div>
+          <textarea id="notes-info-4pm" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button" data-id="4pm"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">05:00 PM</span>
+        </div>
+        <textarea id="notes-info-5pm" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button" data-id="5pm"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">06:00 PM</span>
+        </div>
+          <textarea id="notes-info-6pm" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button" data-id="6pm"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">07:00 PM</span>
+        </div>
+          <textarea id="notes-info-7pm" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button" data-id="7pm"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">08:00 PM</span>
+        </div>
+          <textarea id="notes-info-8pm" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button" data-id="8pm"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="input-group mb-1">
+        <div class="input-group-prepend">
+          <span class="input-group-text">09:00 PM</span>
+        </div>
+        <textarea  id="notes-info-9pm" class="form-control info"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary saveBtn" type="button" data-id="9pm"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+  <script src="./script.js"></script>
+</body>
+  
+</html>

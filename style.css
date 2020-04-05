@@ -1,0 +1,23 @@
+html, header, body {
+    font-family: 'Times New Roman', Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+}
+
+header {
+    color: #4a4a4a;
+}
+
+hr {
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 3px;
+    background: goldenrod;
+}
+
+span.input-group-text {
+    background-color: white;
+}
+
+#rows {
+    margin: 5px;
+}
