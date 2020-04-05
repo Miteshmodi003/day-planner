@@ -1,4 +1,4 @@
-# day-planner
+# Day-Planner
 
 ## User Story
 
