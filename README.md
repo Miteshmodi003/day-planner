@@ -1,4 +1,4 @@
-# Day-Planner
+# <a href="https://miteshmodi003.github.io/day-planner/">Day-Planner</a>
 
 ## User Story
 
